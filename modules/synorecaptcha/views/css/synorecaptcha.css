@@ -1,0 +1,35 @@
+.g-recaptcha {
+    clear: both;
+    margin-bottom: 6px;
+    padding-top: 10px;
+}
+
+.alert-recaptcha {
+    padding: 5px 8px;
+}
+
+.account-creation-form .g-recaptcha,
+.newsletter-form .g-recaptcha {
+    max-width: 321px;
+}
+
+.account-creation-form .synorecaptcha {
+    display: block;
+}
+
+.account-creation-form .g-recaptcha {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 302px;
+}
+
+@media (max-width: 767px) {
+    .g-recaptcha {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .newsletter-form .g-recaptcha {
+        max-width: 302px;
+    }
+}

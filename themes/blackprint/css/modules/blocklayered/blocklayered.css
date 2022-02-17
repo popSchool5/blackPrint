@@ -1,0 +1,266 @@
+#enabled_filters .layered_subtitle {
+  font-weight: bold;
+  font-size: 12px; }
+
+#enabled_filters ul li {
+  padding: 2px 0; }
+
+#enabled_filters li a {
+  float: right;
+  /*display: inline-block;
+  height: 12px;
+  width: 12px;
+  text-indent: -5000px;*/
+  /*background: url(../../../img/icon/delete.gif) no-repeat 0 0 transparent;*/
+  /*background: url(./delete.gif) no-repeat 0 0 transparent;*/
+  cursor: pointer; }
+
+#layered_block_left .layered_close {
+  float: right;
+  padding-right: 5px; }
+
+#layered_block_left span.layered_close a,
+#layered_block_left span.layered_close a {
+  display: block;
+  height: 13px;
+  width: 13px;
+  text-decoration: none;
+  text-indent: -5000px;
+  background: url(img/icon/less.gif) no-repeat 2px 2px; }
+
+#layered_block_left span.closed a {
+  background: url(img/icon/more.gif) no-repeat 2px 2px; }
+
+#layered_block_left .layered_subtitle {
+  display: block;
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgba(234, 222, 192, 0.51); }
+
+#layered_block_left ul {
+  clear: both;
+  padding: 5px 0; }
+
+#layered_block_left ul li {
+  padding: 2px 0; }
+
+#layered_block_left ul li label {
+  cursor: pointer; }
+
+#layered_block_left ul {
+  padding-left: 5px; }
+
+#layered_block_left ul li {
+  list-style-type: none; }
+
+#layered_block_left div > form > div > div {
+  margin-top: 5px; }
+
+#layered_block_left #enabled_filters ul li {
+  margin-left: 0;
+  padding-left: 0; }
+
+/* Style moved form the template to the css  */
+#layered_block_left #enabled_filters ul li:hover {
+  background: inherit;
+  color: inherit; }
+
+#layered_block_left ul li input.checkbox {
+  vertical-align: middle;
+  margin-left: 2px; }
+
+#layered_block_left ul li .disabled {
+  color: #666; }
+
+#layered_block_left .color-option {
+  border: 1px solid #666666;
+  height: 16px;
+  margin-left: 0;
+  padding: 0;
+  width: 16px; }
+
+#layered_block_left .color-option.disable {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5; }
+
+#layered_block_left .nomargin a {
+  display: inline; }
+
+#layered_form .select {
+  width: 165px; }
+
+#layered_form .color-option {
+  margin-left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  padding: 0; }
+
+#layered_form .layered_color {
+  display: none; }
+
+#layered_form .color-option.on {
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+
+#layered_form input[type=radio] {
+  margin-left: 2px;
+  vertical-align: middle; }
+
+.layered_price_range {
+  margin-left: 7px; }
+
+.layered_price_range_unit {
+  margin-right: 7px; }
+
+.layered_slider_container {
+  margin: 6px 0 6px 10px;
+  width: 91%; }
+
+.layered_slider {
+  margin-top: 5px; }
+
+.layered_input_range_min {
+  width: 30px; }
+
+.layered_input_range_max {
+  width: 40px; }
+
+.layered_list_selected {
+  font-weight: bold; }
+
+.layered_list {
+  display: block;
+  cursor: pointer; }
+
+.layered_list:hover {
+  font-weight: bold; }
+
+.layered_ajax_loader p {
+  margin: 20px 0;
+  text-align: center; }
+
+.hide-action {
+  text-align: center;
+  text-align: right;
+  display: block;
+  cursor: pointer; }
+
+.hide-action:hover {
+  font-weight: bold; }
+
+#layered_form div div ul {
+  max-height: 200px;
+  overflow-x: auto; }
+
+.layered_filter label {
+  font-weight: normal; }
+.layered_filter layered_subtitle {
+  font-size: 1.2em; }
+
+#layered_block_left ul.color-group li {
+  display: inline-block;
+  width: auto; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #layered_block_left {
+    position: relative;
+    z-index: 100; } }
+#layered_block_left.loading .block_content {
+  -webkit-filter: blur(2px) !important;
+  -ms-filter: blur(2px) !important;
+  -moz-filter: blur(2px) !important;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='blur'><feGaussianBlur stdDeviation='2' /></filter></svg>#blur");
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='2'); }
+@media (min-width: 992px) {
+  #layered_block_left .title_block {
+    display: none; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  #layered_block_left .block_content:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1; }
+  #layered_block_left #layered_form {
+    position: absolute;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    z-index: 10;
+    background-color: white; }
+    #layered_block_left #layered_form > div {
+      display: flex;
+      flex-flow: wrap;
+      max-width: 750px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      #layered_block_left #layered_form > div .layered_filter, #layered_block_left #layered_form > div .layered_price {
+        width: calc(100% / 3);
+        padding-left: 20px;
+        padding-right: 20px; }
+      #layered_block_left #layered_form > div #enabled_filters {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px; } }
+#layered_block_left .layered_filter_ul li a {
+  color: #30373b;
+  font-size: 15px; }
+#layered_block_left div.checker {
+  margin-right: 10px; }
+
+.layered_slider_container .layered_slider {
+  border-color: #eaebeb; }
+  .layered_slider_container .layered_slider .ui-slider-range {
+    background: #eaebeb; }
+  .layered_slider_container .layered_slider .ui-slider-handle {
+    background: #eadec0;
+    border-color: #eadec0; }
+
+.layered_ajax_loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10; }
+  .layered_ajax_loader .spinner {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 30px auto; }
+  .layered_ajax_loader .double-bounce1, .layered_ajax_loader .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #333;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out; }
+  .layered_ajax_loader .double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s; }
+@-webkit-keyframes sk-bounce {
+  0%, 100% {
+    -webkit-transform: scale(0); }
+  50% {
+    -webkit-transform: scale(1); } }
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0);
+    -webkit-transform: scale(0); }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+
+/*# sourceMappingURL=blocklayered.css.map */

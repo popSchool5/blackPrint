@@ -1,0 +1,39 @@
+img.adtm_menu_icon {
+  vertical-align: top;
+  margin-right: 3px;
+  margin-bottom: 15px; }
+
+#adtm_menu .searchboxATM .search_query_atm {
+  display: block;
+  padding-left: 14px;
+  width: 176px;
+  height: 100%;
+  border: 1px solid #eaebeb;
+  border-right: 0;
+  font-size: 13px;
+  line-height: 1.38;
+  color: #979b9d; }
+#adtm_menu .searchboxATM .button_mini {
+  display: inline-block; }
+#adtm_menu .searchboxATM .btn {
+  display: block;
+  width: 40px;
+  height: 100%;
+  padding: 0;
+  color: #f83800;
+  text-align: center;
+  border: 1px solid #eaebeb;
+  border-left: 0;
+  background: none;
+  font-size: 0; }
+  #adtm_menu .searchboxATM .btn:before {
+    content: "\f002";
+    display: block;
+    font-family: "FontAwesome";
+    font-size: 17px;
+    width: 100%;
+    text-align: center; }
+#adtm_menu .adtm_unclickable {
+  text-decoration: none !important; }
+
+/*# sourceMappingURL=pm_advancedtopmenu_advanced-1.css.map */

@@ -1,0 +1,75 @@
+/**************************************************************************
+					Contact Page Styles
+**************************************************************************/
+.contact-title {
+  margin: -5px 0 0px 0;
+  line-height: 23px; }
+  .contact-title i {
+    font-size: 23px;
+    color: #c0c0c0;
+    padding: 0 8px 0 0; }
+
+.contact-form-box {
+  background: #fff;
+  border: 2px solid #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  padding: 14px 18px 13px;
+  margin: 0 0 30px 0;
+  line-height: 23px; }
+  .contact-form-box fieldset {
+    padding: 0 19px 21px 19px; }
+    @media (max-width: 480px) {
+      .contact-form-box fieldset {
+        padding: 0 0 21px 0; } }
+  .contact-form-box label {
+    font-weight: 500; }
+  .contact-form-box .col-md-3 {
+    min-width: 319px;
+    padding-left: 0; }
+    @media (max-width: 991px) {
+      .contact-form-box .col-md-3 {
+        padding-right: 0; } }
+    @media (max-width: 480px) {
+      .contact-form-box .col-md-3 {
+        min-width: 304px; } }
+  .contact-form-box .col-md-9 {
+    max-width: calc(100% - 319px);
+    padding-right: 0; }
+    @media (max-width: 991px) {
+      .contact-form-box .col-md-9 {
+        padding-left: 0;
+        max-width: none; } }
+  .contact-form-box .g-recaptcha .alert-recaptcha {
+    padding: 3px 10px; }
+  @media (max-width: 991px) {
+    .contact-form-box .g-recaptcha > div {
+      margin-left: auto;
+      margin-right: auto; } }
+  .contact-form-box #desc_contact0 {
+    display: none; }
+  .contact-form-box .form-group .selector {
+    max-width: 100%; }
+    .contact-form-box .form-group .selector > span {
+      max-width: 100%;
+      border-top: 1px solid #d6d4d4;
+      border-bottom: 1px solid #d6d4d4;
+      background-color: #fbfbfb;
+      background-position: right -82px; }
+    .contact-form-box .form-group .selector.focus.active > span {
+      background-position: right -109px; }
+  .contact-form-box .form-group input, .contact-form-box .form-group select {
+    width: 100%; }
+  .contact-form-box div.uploader span.filename {
+    width: 80%;
+    margin: 0; }
+  .contact-form-box div.uploader span.action {
+    width: 20%;
+    color: #fff;
+    font-weight: 400;
+    background: none;
+    background-color: #f83800; }
+  .contact-form-box textarea {
+    height: 257px; }
+
+/*# sourceMappingURL=contact-form.css.map */

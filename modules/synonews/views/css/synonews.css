@@ -1,0 +1,65 @@
+.synonews-blog-heading {
+	padding: 25px;
+	background: #009fe3;
+	color: #ffffff;
+}
+.synonews-blog-category {
+	margin: 0;
+	padding: 0;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.3;
+	text-transform: uppercase;
+}
+.synonews-blog-description {
+	margin: 0 auto;
+}
+@media (max-width: 991px) {
+	.synonews-categories .title-block {
+		font-size: 20px;
+		padding: 4px 0;
+	}
+}
+@media (min-width: 768px) {
+	.synonews-blog-description {
+		max-width: 60%;
+	}
+	.synonews-categories .title-categories-button {
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+	.synonews-categories .title-text {
+		display: none;
+	}
+	.synonews-blog-category {
+		font-size: 30px;
+	}
+	.synonews-blog-heading .blog-description {
+		max-width: 80%;
+	}
+	.synonews-categories .title-categories-button {
+		border: 0;
+		width: 100%;
+		padding: 0 15px;
+		background: transparent;
+		text-align: center;
+		display: flex;
+		justify-content: space-between;
+		font-weight: 600;
+		font-size: 17px;
+		line-height: 40px;
+		text-transform: uppercase;
+	}
+	.synonews-categories .title-categories-button .icon-plus {
+		font-size: 26px;
+		line-height: 40px;
+	}
+	.synonews-categories .title-categories-button,
+	.synonews-categories .title-categories-button .icon-plus {
+		color: #532f00;
+	}
+	.synonews-blog-heading .blog-description {
+		max-width: 80%;
+	}
+}

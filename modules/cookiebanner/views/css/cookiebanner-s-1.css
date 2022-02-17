@@ -1,0 +1,135 @@
+/* Cookie Banner Prestashop module
+ * Copyright 2014, Prestaddons
+ * Author: Prestaddons
+ * Website: http://www.prestaddons.fr
+ */
+
+/* General cookie banner styles */
+#cookiebanner {
+	position: fixed;
+	min-height: 50px;
+	height: auto;
+	font-size: 15px;
+	text-align: left;
+	z-index: 10000;
+	box-sizing: border-box;
+}
+#cookiebanner .cb-wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 10px;
+	display: flex;
+	box-sizing: content-box;
+}
+#cookiebanner .text-content {
+	margin: auto 0 auto 0;
+}
+#cookiebanner .btn:last-child {
+    margin-left: 10px;
+}
+#cookiebanner .more_link {
+	text-decoration: underline;
+	font-weight: normal;
+	margin: auto auto auto 5px;
+	padding: 0;
+	background: none;
+	border: none;
+}
+#cookiebanner .cb-btn-wrapper {
+	margin: auto 0 auto auto;
+}
+#cookiebanner .cb-links-wrapper {
+	display: flex;
+	flex: 1;
+	min-width: 300px;
+}
+
+/* Cookie banner box style */
+#cookiebanner.cb-box {
+	margin: 20px;
+	line-height: 21px;
+}
+#cookiebanner.cb-box .cb-wrapper {
+	flex-direction: column;
+	padding: 15px;
+}
+#cookiebanner .cb-btn-wrapper {
+	margin: 0 0 0 auto;
+}
+#cookiebanner.cb-box .text-content {
+	margin: 0 0 20px 0;
+}
+
+/* Cookie banner position style */
+#cookiebanner.top {
+	top: 0;
+}
+#cookiebanner.bottom {
+	bottom: 0;
+}
+#cookiebanner.left {
+	left: 0;
+}
+#cookiebanner.right {
+	right: 0;
+}
+
+/* Cookie banner responsive styles */
+@media (max-width: 768px) {
+	#cookiebanner .cb-wrapper {
+		flex-direction: column;
+	}
+	#cookiebanner .text-content {
+		margin: 0 0 10px 0;
+	}
+	#cookiebanner .cb-links-wrapper {
+		min-width: inherit;
+		width: 100%;
+	}
+}
+@media (max-width: 480px) {
+	#cookiebanner .cb-links-wrapper {
+		flex-direction: column;
+	}
+	#cookiebanner .cb-btn-wrapper {
+		margin: 15px 0 0 0;
+	}
+}
+
+/* Section dynamique générée par le backoffice */
+#cookiebanner{
+    background: rgba(51,51,51,0.8);
+    border: solid 0px #1790C7;
+}
+#cookiebanner.cb-box {
+    max-width: 500px;
+}
+#cookiebanner .text-content {
+    color: #ffffff;
+}
+#cookiebanner a.more_link{
+    color:#ffffff !important;
+}
+#cookiebanner a.more_link:hover{
+    color:#0084BF !important;
+}
+#cookiebanner a#valid_cookie{
+    color: #ffffff;
+    background: #428BCA;
+    border-color:#1790C7;
+}
+#cookiebanner a#valid_cookie:hover{
+    color: #ffffff;
+    background: #2B6497;
+    border-color:#1790C7;
+}
+#cookiebanner a#allow_all{
+    color: #ffffff;
+    background: #428BCA;
+    border-color:#1790C7;
+}
+#cookiebanner a#allow_all:hover{
+    color: #ffffff;
+    background: #2B6497;
+    border-color:#1790C7;
+}

@@ -1,0 +1,27 @@
+.footer-container #footer .synonews-link {
+    margin: 0 0 9px 0;
+    text-align: center;
+    display:none;
+}
+.footer-container #footer .synonews-link .blog {
+    text-decoration: none;
+    color: #875323;
+    font-size: 28px;
+}
+.footer-container #footer .synonews-link .blog:hover {
+    color: #b06c2e;
+}
+.footer-container #footer .synonews-link .blog:before {
+    content: '\f1ea';
+    display: inline-block;
+    font-family: "FontAwesome";
+    vertical-align: -5px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .footer-container #footer .synonews-link .blog {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,199 @@
+.synonews-post .synonews-float-left {
+	margin: 5px 15px 10px 0;
+	float: left;
+}
+.synonews-post .synonews-float-right {
+	margin: 5px 0 10px 15px;
+	float: right;
+}
+.synonews-post .synonews-text {
+	text-align: justify;
+}
+.synonews-post .post-title {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.synonews-post .post-picture {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.synonews-post .synonews-quote p,
+.synonews-post .synonews-quote div {
+	display: inline;
+}
+.synonews-post .synonews-quote:before,
+.synonews-post .synonews-quote:after {
+	font: 400 22px/normal "FontAwesome";
+}
+.synonews-post .synonews-quote:before {
+	content: '\F10D';
+	margin-right: 5px;
+}
+.synonews-post .synonews-quote:after {
+	content: '\F10E';
+	margin-left: 5px;
+}
+.synonews-post .synonews-quote {
+	color: #aeaeae;
+}
+.synonews-post .synonews-frame {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+.synonews-post .synonews-numbered-list li:after,
+.synonews-post .synonews-list li:before,
+.synonews-post .synonews-quote:before,
+.synonews-post .synonews-quote:after,
+.synonews-post .post-description a {
+	color: #009fe3;
+}
+.synonews-post .post-description a:hover,
+.synonews-post .post-description a:focus {
+	text-decoration: underline;
+}
+.synonews-post .synonews-list,
+.synonews-post .synonews-numbered-list,
+.synonews-post .synonews-title {
+	clear: both;
+}
+.synonews-post .synonews-table {
+	margin-bottom: 0;
+	border: 0;
+	max-width: none;
+}
+.synonews-post .synonews-table > tbody > tr:first-child > td {
+	border-top: 0;
+}
+.synonews-post .synonews-table > tbody > tr > td:first-child {
+	border-left: 0;
+}
+.synonews-post .synonews-table > tbody > tr > td:last-child {
+	border-right: 0;
+}
+.synonews-post .table-responsive {
+	overflow: auto;
+	margin-bottom: 15px;
+	border: 1px solid #d6d4d4;
+}
+.synonews-post .synonews-list {
+	list-style: none;
+	padding-left: 5px;
+}
+.synonews-post .synonews-numbered-list {
+	list-style: decimal;
+	margin-left: 20px;
+}
+.synonews-post .synonews-numbered-list li {
+	list-style: none;
+	counter-increment: list;
+	position: relative;
+}
+.synonews-post .synonews-numbered-list li:after {
+	content: counter(list) ".";
+	position: absolute;
+	left: -2.2em;
+	width: 2em;
+	text-align: right;
+}
+.synonews-post .synonews-list li:before {
+	content: '\2022';
+	font-size: 25px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.synonews-post .row-breadcrumb {
+    display: none;
+}
+.synonews-post-item .post-description img {
+    margin: 10px;
+}
+.synonews-post ul.product_list .product-desc {
+	padding: 0 15px;
+}
+.synonews-post ul.product_list .product-name {
+	font-size: 1.5em;
+}
+.synonews-post #related-products {
+	margin-top: 20px;
+}
+.synonews-post .post-description {
+	margin-bottom: 20px;
+}
+.synonews-post .socials ul {
+	margin-top: 20px;
+}
+.synonews-post .socials li a span {
+	display: none;
+}
+.synonews-post .socials li a:before {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-size: 30px;
+}
+.synonews-post .socials li.facebook a:before {
+	content: "\f09a";
+}
+.synonews-post .socials li.twitter a:before {
+	content: "\f099";
+}
+.synonews-post .socials li.linkedin a:before {
+	content: "\f0e1";
+}
+.synonews-post .socials li.google_plus a:before {
+	content: "\f0d5";
+}
+.synonews-post .socials li a:hover {
+	color: #30373b;
+}
+@media (max-width: 1199px) {
+    .synonews-post ul.product_list .product-name {
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 991px) {
+	.synonews-post .synonews-image img {
+		max-width: 60%;
+	}
+    .synonews-post ul.product_list .product-desc {
+        font-size: 1em;
+    }
+    .synonews-post ul.product_list .ajax_add_to_cart_button {
+        font-size: 15px;
+        text-align: center;
+    }
+    .synonews-post ul.product_list .ajax_add_to_cart_button span {
+        padding: 5px 20px;
+    }
+    .synonews-post ul.product_list .lnk_view {
+        font-size: 13px;
+    }
+    .synonews-post ul.product_list .lnk_view span {
+        padding: 7px 15px;
+    }
+}
+@media (min-width: 768px) {
+	.synonews-post #main {
+		display: flex;
+	}
+}
+@media (max-width: 767px) {
+	.synonews-post #left_column,
+	.synonews-post #center_column {
+		width: 100%;
+	}
+}
+@media (max-width: 480px) {
+	.synonews-post .synonews-image img,
+	.synonews-post .synonews-frame {
+		float: none !important; /* Override the float set by the user via the WYSIWYG */
+		margin: 0;
+	}
+	.synonews-post .synonews-image img {
+		max-width: 100%;
+	}
+	.synonews-post .synonews-frame {
+		width: 100%;
+        height: 100%;
+	}
+}
